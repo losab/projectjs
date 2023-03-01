@@ -1,0 +1,78 @@
+body {
+    background: rgb(91,91,91);
+    background: linear-gradient(90deg, rgba(91,91,91,1) 0%, rgba(80,80,80,1) 50%, rgba(60,60,60,1) 100%);
+}
+
+.logo {
+    width: 151.43px;
+    height: 30px;
+    
+}
+.container {
+    margin: 37px 40px;
+}
+.box {
+    height: 500px;
+    margin-top: 60.64px;
+    display: flex;
+}
+.left-sec {
+    width:269px;
+    margin-right: 50px;
+    overflow-y:scroll ;
+}
+.left-sec h3 {
+    color: #979797;
+    font-size: 20px;
+    padding: 20px 0;
+}
+.left-sec  nav ul li {
+    min-width: 120px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(32,32,32,1) 50%, rgba(45,44,44,1) 100%);
+    color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+}
+.right-sec {
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(32,32,32,1) 50%, rgba(45,44,44,1) 100%);
+    border-radius: 30px;
+}
+.product-box {
+    color: #979797;;
+    padding: 29px 51px;
+    
+}
+.product-box h1 {
+    font-size: 64px;
+    color: #fff;
+}
+.product-box h3 {
+    margin-top: 30px;
+}
+input {
+    width: 320px;
+    height: 50px;
+    background-color: #fff;
+    margin: 30px 0 10px 0;
+    border-radius: 10px;
+    font-size: 23px;
+}
+
+.product-box p {
+    margin-top: 30px;
+    font-size: 30px;
+}
+.product-box h5 {
+    font-size: 30px;
+}
+.visited:active,
+.visited:visited,
+.visited{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 15px;
+}
